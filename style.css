@@ -103,7 +103,7 @@ body {
     margin: 20px 0px;
 }
 
-.party-content .join-btn {
+.join-btn {
     padding: 20px 50px;
     color: white;
     font-size: 14px;
@@ -112,4 +112,20 @@ body {
     border-radius: 5px;
     cursor: pointer;
     background: #070211;
+}
+
+.schedule {
+    background-color: antiquewhite;
+    margin: 120px 80px;
+    text-align: center;
+    padding: 200px 0px;
+    border-radius: 10px;
+}
+
+.schedule span {
+    color: red;
+}
+
+.schedule h1 {
+    margin-bottom: 20px;
 }
