@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-section img {
@@ -15,13 +20,21 @@
     text-align: center;
     margin: 10px auto;
     position: absolute;
-    top: 35%;
-    left: 45%;
+    top: 25%;
+    left: 35%;
 }
 
 .header-content p {
-    color: #FFF;
+    color: #000000;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
+}
+
+.header-content h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
 }
