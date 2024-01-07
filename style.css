@@ -9,34 +9,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header-section img {
-    display: block;
-    width: 80%;
-    margin: 30px auto;
-    position: relative;
+.header-section {
+    background-image: url(images/Banner\ Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-content {
-    text-align: center;
-    margin: 10px auto;
-    position: absolute;
-    top: 25%;
-    left: 35%;
+    padding-bottom: 100px;
+    color: #070211;
 }
 
 .header-content p {
-    color: #000000;
     text-align: center;
     font-size: 32px;
 }
 
 .header-content h1 {
-    color: #000000;
     text-align: center;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 95px;
+
 }
 
 /* offer section styles */
@@ -69,4 +67,49 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
+}
+
+.party {
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: 50px 80px;
+    height: 100vh;
+    background-size: contain;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-content {}
+
+.party img {
+    margin-bottom: 90px;
+}
+
+.party h1 {
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.party p {
+    font-size: 24px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.party-content .join-btn {
+    padding: 20px 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #070211;
 }
