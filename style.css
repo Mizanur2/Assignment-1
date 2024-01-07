@@ -129,3 +129,38 @@ body {
 .schedule h1 {
     margin-bottom: 20px;
 }
+
+.portfolio {
+    margin: 50px 80px;
+}
+
+.portfolio-content h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.portfolio-content h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.portfolio-content p {
+    font-size: 24px;
+    color: #070211;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+
+.portfolio-img {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
