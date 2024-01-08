@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     margin: 50px 80px;
+    filter: brightness(90%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,18 +23,20 @@ body {
 
 .header-content {
     padding-bottom: 100px;
-    color: #070211;
+    /* color: white; */
 }
 
 .header-content p {
     text-align: center;
     font-size: 32px;
+    color: white;
 }
 
 .header-content h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 900;
+    color: white;
 
 }
 
@@ -208,6 +211,75 @@ body {
     line-height: 32px;
 }
 
+.banner {
+    /* background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    margin: 200px 80px;
+    /* background-color: aqua; */
+    height: 600px;
+    width: 90%;
+    position: relative;
+}
+
+.banner .left-img {
+    height: 300px;
+    width: 300px;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top: -33px;
+    right: 129px;
+}
+
+.off-img {
+    position: absolute;
+    /* height: 200px; */
+    /* width: 200px; */
+    /* border-radius: 50%; */
+    /* background-color: black; */
+    top: 66px;
+    right: 280px;
+}
+
+.gift-img {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: khaki; */
+}
+
+.gift-img img {
+    height: 500px;
+}
+
+.bottom-img {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: red; */
+    z-index: -1;
+}
+
+.bottom-img img {
+    /* z-index: 1;
+    position: absolute; */
+    /* border-radius: 20px; */
+}
+
+.left-img img {
+    /* width: 100%; */
+}
+
+.banner .gift-img {
+    /* background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 500px; */
+}
+
 .portfolio {
     margin: 50px 80px;
 }
@@ -295,6 +367,13 @@ label button {
 
 .address {
     margin-bottom: 50px;
+}
+
+.phone-number,
+.website {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .contact,
