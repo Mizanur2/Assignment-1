@@ -22,7 +22,6 @@ body {
 
 .header-content {
     padding-bottom: 100px;
-    /* color: white; */
 }
 
 .header-content p {
@@ -39,7 +38,6 @@ body {
 
 }
 
-/* offer section styles */
 
 .offer-section {
     display: flex;
@@ -94,7 +92,6 @@ body {
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    /* 137.5% */
     letter-spacing: 7.04px;
 }
 
@@ -207,15 +204,12 @@ body {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-size: 20px;
+    text-transform: capitalize;
     line-height: 32px;
 }
 
 .banner {
-    /* background-image: url('images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-size: contain; */
     margin: 200px 80px;
-    /* background-color: aqua; */
     height: 600px;
     width: 90%;
     position: relative;
@@ -224,7 +218,6 @@ body {
 .banner .left-img {
     height: 300px;
     width: 300px;
-    /* background-color: rebeccapurple; */
     position: absolute;
     top: -33px;
     right: 129px;
@@ -232,10 +225,6 @@ body {
 
 .off-img {
     position: absolute;
-    /* height: 200px; */
-    /* width: 200px; */
-    /* border-radius: 50%; */
-    /* background-color: black; */
     top: 66px;
     right: 280px;
 }
@@ -244,9 +233,6 @@ body {
     position: absolute;
     top: 70px;
     left: 100px;
-    /* height: 200px;
-    width: 200px; */
-    /* background-color: khaki; */
 }
 
 .gift-img img {
@@ -258,25 +244,7 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0;
-    /* background-color: red; */
     z-index: -1;
-}
-
-.bottom-img img {
-    /* z-index: 1;
-    position: absolute; */
-    /* border-radius: 20px; */
-}
-
-.left-img img {
-    /* width: 100%; */
-}
-
-.banner .gift-img {
-    /* background-image: url('images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* height: 500px; */
 }
 
 .portfolio {
