@@ -282,6 +282,12 @@ body {
     width: 100%;
 }
 
+.portfolio-img img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 1s;
+}
+
 .subscribe-section h1 {
     color: #070211;
     text-align: center;
