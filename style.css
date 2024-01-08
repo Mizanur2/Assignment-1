@@ -15,7 +15,6 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     margin: 50px 80px;
-    filter: brightness(90%);
     display: flex;
     justify-content: center;
     align-items: center;
