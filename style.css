@@ -129,6 +129,53 @@ body {
     margin-bottom: 20px;
 }
 
+.comming-soon {
+    display: flex;
+    justify-content: center;
+    margin: 120px 80px;
+}
+
+.comming-left-content h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.comming-left-content h1 {
+    color: #070211;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+
+.comming-left-content p,
+.comming-right-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+.comming-soon>img {
+    width: 80%;
+    border: 5px solid red;
+    padding: 30px;
+    border-radius: 50%;
+    margin: 0px 70px;
+}
+
+.comming-right-content h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.comming-right-content img {
+    margin-top: 20px;
+}
+
 .portfolio {
     margin: 50px 80px;
 }
